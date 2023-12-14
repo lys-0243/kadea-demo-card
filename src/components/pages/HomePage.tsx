@@ -4,12 +4,9 @@ import { appRoutes } from '../../lib/routes'
 
 export default function HomePage() {
   return (
-    <div>HomePage <br />
-      <NavLink to={appRoutes.successPage}>
-        SuccessPage
-      </NavLink>
-
-      
-    </div>
+    <section>
+      <div className=' bg-violet-700 w-[33%] h-screen'></div>
+      <div className=' bg-white'></div>
+    </section>
   )
 }
