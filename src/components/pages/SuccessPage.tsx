@@ -4,7 +4,7 @@ import { appRoutes } from '../../lib/routes'
 
 export default function SuccessPage() {
   return (
-    <div>
+    <div className=' bg-violet-700'>
       SuccessPage
        <br />
        <NavLink to={appRoutes.home}>

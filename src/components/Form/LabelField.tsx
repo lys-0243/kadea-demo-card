@@ -1,7 +1,15 @@
-import React from 'react'
+import React from "react";
 
-export default function LabelField() {
+export default function LabelField({
+  htmlFor,
+  labelText,
+}: {
+  htmlFor: string;
+  labelText: string;
+}) {
   return (
-    <div>LabelField</div>
-  )
+    <label htmlFor={htmlFor} className=" text-slate-600 text-sm uppercase">
+      {labelText}
+    </label>
+  );
 }
